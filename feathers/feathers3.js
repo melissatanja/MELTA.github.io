@@ -9,22 +9,22 @@ let mx;
 let my;
 let cols = [];
 
+var clicks = 0;
+
 let lX;
 let lY;
 
 let xpos;
 let ypos;
-// let mxc;
-// let myc;
+
+var w = 700;
+var h = 700;
 
 let spotlight;
 
 function setup(){
-	c = createCanvas(700, 1400);
+	c = createCanvas(w, h);
 
-	// colorMode(HSB);
-
-	// mx = mouseX;
 	background(0);
 
 	for(let i = 0; i < 20; i++){
@@ -36,76 +36,35 @@ function setup(){
 
 	}
 
-	// mx = mouseX;
-
-	// spotlight = createGraphics(width/4, height/4);
+	colorMode(RGB);
 
 }
 
 function draw(){
 
-	// console.log(mx);
-
-	// mx = map(mouseX, 0, 1000, 0, 255);
-	// my = map(mouseY, 0, 1000, 0, 255);
-
-	// fill(mx, mx, mx);
-	// ellipse(mx, my, 100, 100);
-
-	// push();
-	// fill(0, 0, 0, 10);
-	// rect(0, 0, width, height);
-	// pop();
-
-		// stroke(0, 100, 0);
-		// line(width/2, height/2, mouseX, mouseY);
-
-		// console.log(mouseX, mouseY);
-	// spotlight.background(255);
-	// spotlight.noStroke();
-	// spotlight.fill(255, 255, 255, 1);
-	// spotlight.filter(BLUR, 5);
-	// spotlight.ellipse(mouseX, mouseY, 150, 150);
-
-	for(let i = 0; i < 75; i++){
-
-		// mx = map(mouseX, 0, 1000, 0, 345);
-		// my = map(mouseY, 0, 1000, 0, 345);
-
-
-		// form[i].h = mx + my;
-
-	}
-
 		for(n of form){
 
-			mxc = map(mouseX, 0, 1000, 0, 255);
-			myc = map(mouseY, 0, 1000, 0, 255);
-
-			// xpos = mouseX;
-			// ypos = mouseY;
-
-			// ellipse(mx, my, 100, 100);
+			mxc = map(mouseX, 0, 700, 20, 235);
+			myc = map(mouseY, 0, 700, 20, 235);
 
 			n.appear();
 			n.move();
-
-			// if(n.x < mouseX + 10 && n.x > mouseX - 10){
-
-			// 	// if(n.y < mouseY +10 || n.y > mouseY - 10){
-
-			// 		n.repel();
-			// 		console.log(mouseX);
-
-			// 	// }
-
-			// }
 
 			for(m of form){
 
 				if(n != m && n.intersect(m)){
 
-					n.connect(m);
+					if(clicks === 0){
+						n.connectA(m);
+					}else if(clicks === 1){
+						n.connectB(m);
+					}else if(clicks === 2){
+						n.connectC(m);
+					}else if(clicks === 3){
+						n.connectD(m);
+					}else if(clicks === 4){
+						n.connectE(m);
+					}
 
 				}
 
@@ -115,22 +74,21 @@ function draw(){
 
 }
 
+function clickButton(){
+
+	clicks++;
+
+	if(clicks > 4){
+
+		clicks = 0;
+
+	}
+
+}
+
 class Form {
 
 	constructor(){
-
-		// mx = mouseX;
-
-		// this.x = (mx - this.x) * ease;
-		// this.y = (my - this.y) * ease;
-
-		// this.mx = map(mouseX, 0, 800, 0, 255);
-		// this.my = map(mouseY, 0, 800, 0, 255);
-
-		// this.mouseX = mouseX;
-
-		// this.ax = xpos;
-		// this.ay = ypos;
 
 		this.ax = random(width);
 		this.ay = random(height);
@@ -141,15 +99,6 @@ class Form {
 		this.direcx = direcx;
 		this.direcy = direcy;
 		this.d = d;
-
-		// this.mx = mouseX;
-		// this.newcol = newcol;
-
-		// this.h = 0;
-		// this.s = 100;
-		// this.l = 75;
-
-		// console.log(mouseX);
 
 	}
 
@@ -220,13 +169,76 @@ class Form {
 
 	}
 
-	connect(other){
+	connectA(other){
 
 		t = 1;
 
+			// fill(mxc + myc/6, (mxc + myc)/1.5, mxc/3 + myc, t);
 			fill(mxc + myc/6, (mxc + myc)/1.5, mxc/3 + myc, t);
 
-			// ellipse(mx, my, 100, 100);
+			noStroke();
+			beginShape();
+				vertex(this.ax, this.ay);
+				vertex(this.bx, this.by);
+				vertex(other.ax, other.ay);
+				vertex(other.bx, other.by);
+			endShape(CLOSE);
+
+	}
+
+	connectB(other){
+
+		t = 1;
+
+			fill(mxc + myc, (mxc - myc) * 4, mxc/3 + myc, t);
+
+			noStroke();
+			beginShape();
+				vertex(this.ax, this.ay);
+				vertex(this.bx, this.by);
+				vertex(other.ax, other.ay);
+				vertex(other.bx, other.by);
+			endShape(CLOSE);
+
+	}
+
+	connectC(other){
+
+		t = 1;
+
+			fill(mxc - myc/5, (mxc - myc) * 4, mxc * 1.5 + myc, t);
+
+			noStroke();
+			beginShape();
+				vertex(this.ax, this.ay);
+				vertex(this.bx, this.by);
+				vertex(other.ax, other.ay);
+				vertex(other.bx, other.by);
+			endShape(CLOSE);
+
+	}
+
+	connectD(other){
+
+		t = 1;
+
+			fill((mxc - myc) * 5, myc * 3 - mxc/1.8, (mxc + myc * 0.85), t);
+
+			noStroke();
+			beginShape();
+				vertex(this.ax, this.ay);
+				vertex(this.bx, this.by);
+				vertex(other.ax, other.ay);
+				vertex(other.bx, other.by);
+			endShape(CLOSE);
+
+	}
+
+	connectE(other){
+
+		t = 1;
+
+			fill(mxc - myc/4, myc/2 + mxc, (mxc + myc), t);
 
 			noStroke();
 			beginShape();
@@ -241,14 +253,13 @@ class Form {
 }
 
 function mousePressed(){
-	saveCanvas(c, 'flickers', 'jpg');
+
+	if(mouseX > 0 && mouseX < w && mouseY > 0 && mouseY < h){
+		fill(255, 255, 255, 100);
+		text("MELTA", 650, 690);
+		saveCanvas(c, 'flickers', 'jpg');
+	}
+
 } 
 
 
-// tutorial help
-// https://www.youtube.com/watch?v=W1-ej3Wu5zg&index=31&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA
-// https://www.youtube.com/watch?v=5Q9cA0REztY&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=32
-
-// colour reference
-// http://www.workwithcolor.com/cyan-blue-color-hue-range-01.htm
-// https://digitalsynopsis.com/design/color-thesaurus-correct-names-of-shades/

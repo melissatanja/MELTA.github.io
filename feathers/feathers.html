@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-<!--     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>MELTA - feathers</title>
     <style>       
       body {padding: 0; margin: 0; text-align: center;} 
-      h1 {font-size: 50px; text-align: center;}
+      h1 {font-size: 40px; text-align: center;}
       p {font-size: 15px; text-align: center;}
+      .btn {text-align: center; display: inline-block; position: absolute; top: 95%;}
     </style>
     <script src="../p5/p5.min.js"></script>
     <script src="../p5/addons/p5.dom.min.js"></script>
@@ -16,7 +15,10 @@
   <body>
 
     <h1>FEATHERS</h1>
+    <p>move your cursor around the square to change colours</p>
+    <p>if you like what you see, click to save</p>
     <script src="feathers3.js"></script>
+    <button class="btn" onclick="clickButton()">Change Color Palette</button>
 
   </body>
 </html>

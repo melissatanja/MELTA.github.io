@@ -87,6 +87,7 @@ var i = 0;
 
 var l1 = h/3;
 var l2 = h/1.5;
+var c;
 
 function setup(){
 	var c = createCanvas(w, h);
@@ -160,34 +161,10 @@ function write(i){
 		}
 }
 
-// function keyPressed(){
-// 	if(key == "s" || key == "S"){
-// 		saveCanvas(c, "myMadlib", "jpg");
-// 	}
-// }
+function saveScreen(){
 
-// sentence structure:
-// ats: 1, 5, 9, 13
-// ads: 2, 6, 10, 14
-// nns: 3, 7, 11, 15
-// vbs: 4, 12
-// cns: 8
-
-
-// https://creative-coding.decontextualize.com/arrays-and-objects/
-// help setting up a string array
-
-// https://www.youtube.com/watch?v=9857701OsDE&index=17&list=RDUvSjtiW-RH8
-// help with if / and
-
-// https://processing.org/reference/random_.html
-// help pulling random words from an array
-
-// https://p5js.org/reference/#/p5.Element/mouseClicked
-// help with mouseClicked function
-
-// https://forum.processing.org/two/discussion/3647/how-execute-a-function-only-once
-// help getting only one word to display per click
-
-// https://p5js.org/reference/#/p5/saveCanvas
-// help with saving canvas
+	fill(0, 0, 0, 100);
+	text("MELTA", 1350, 485);
+	saveCanvas('phrazy', 'jpg');
+	
+}
