@@ -36,6 +36,7 @@ let my;
 let jpgButton;
 
 let clicks;
+var txt;
 
 function setup(){
 
@@ -50,6 +51,8 @@ function setup(){
 	createP();
 
 	textboxn.changed(newName);
+
+	txt = createGraphics(560, 650);
 
 }
 
@@ -94,7 +97,7 @@ function mouseClicked(){
 
 		if(mouseY > 0 && mouseY < height + 500){
 
-			// text("MELTA", 500, 540);
+			txt.text("MELTA", 500, 540);
 
 			saveCanvas(canvas, textboxn.value(), 'jpg')
 
