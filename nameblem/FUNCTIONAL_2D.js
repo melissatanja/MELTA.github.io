@@ -72,9 +72,12 @@ function draw(){
 	emblem();
 
 	txt.fill(0);
-	txt.text("MELTA", 500, 540);
+	txt.textSize(15);
+	txt.text("MELTA", 500, 500);
 	texture(txt);
-	plane(560, 560);
+
+	// texture("blue");
+	plane(560);
 
 }
 
