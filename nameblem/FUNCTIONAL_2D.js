@@ -45,7 +45,7 @@ function setup(){
 
 	createP();
 	
-	canvas = createCanvas(560, 560, WEBGL);
+	canvas = createCanvas(560, 560);
 
 	createP();
 
@@ -61,15 +61,13 @@ function draw(){
 	mx = map(mouseX, 0, width, 0, 255);
 	my = map(mouseY, 0, height, 0, 255);
 
-	orbitControl();
+	// orbitControl();
 
 	rotateX(PI/2);
 
 	border();
 
 	emblem();
-
-	text("MELTA", 500, 540);
 
 }
 
