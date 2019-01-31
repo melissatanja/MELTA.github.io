@@ -53,7 +53,7 @@ function setup(){
 
 	textboxn.changed(newName);
 
-	console.log("update1");
+	console.log("update2");
 
 }
 
@@ -73,6 +73,7 @@ function draw(){
 
 	emblem();
 
+	txt.background(255, 255, 255, 0);
 	txt.fill(0);
 	txt.textSize(15);
 	txt.text("MELTA", 500, 500);
