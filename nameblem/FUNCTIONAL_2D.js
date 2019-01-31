@@ -53,7 +53,7 @@ function setup(){
 
 	textboxn.changed(newName);
 
-	console.log("update3");
+	console.log("update4");
 
 }
 
@@ -77,9 +77,9 @@ function draw(){
 	txt.fill(0);
 	txt.textSize(15);
 	txt.text("MELTA", 500, 500);
-	// texture(txt);
+	texture(txt);
 
-	texture("blue");
+	// texture("blue");
 	plane(560, 560);
 
 }
