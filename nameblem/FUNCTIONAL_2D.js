@@ -76,13 +76,13 @@ function draw(){
 	rotateX(-PI/2);
 
 	txt.background(255, 255, 255, 0);
-	txt.fill(0, 0, 0, 100);
+	txt.fill(0, 0, 0, 50);
 	txt.textSize(15);
-	txt.text("MELTA", 490, 540);
-	texture(txt);
+	txt.text("MELTA", 490, 535);
+	// texture(txt);
 
-	// texture("blue");
-	plane(560, 560);
+	// // texture("blue");
+	// plane(560, 560);
 
 }
 
@@ -112,6 +112,9 @@ function mouseClicked(){
 			// txt.text("MELTA", 500, 540);
 
 			// image(txt, 0, 0);
+
+			texture(txt);
+			plane(560, 560);
 
 			saveCanvas(canvas, textboxn.value(), 'jpg')
 
