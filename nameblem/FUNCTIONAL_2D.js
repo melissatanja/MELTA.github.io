@@ -53,7 +53,7 @@ function setup(){
 
 	textboxn.changed(newName);
 
-	console.log("update5");
+	console.log("update6");
 
 }
 
@@ -72,6 +72,8 @@ function draw(){
 	// border();
 
 	// emblem();
+
+	rotateX(-PI/2);
 
 	txt.background(255, 255, 255, 0);
 	txt.fill(0);
