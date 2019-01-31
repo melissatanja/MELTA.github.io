@@ -72,6 +72,7 @@ function draw(){
 
 	emblem();
 
+	txt.fill(0);
 	txt.text("MELTA", 500, 540);
 
 }
