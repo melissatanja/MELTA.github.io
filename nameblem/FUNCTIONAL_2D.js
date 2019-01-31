@@ -73,7 +73,8 @@ function draw(){
 
 	txt.fill(0);
 	txt.text("MELTA", 500, 540);
-	image(txt, 0, 0);
+	texture(txt, 0, 0);
+	plane(560, 560);
 
 }
 
