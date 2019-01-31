@@ -72,6 +72,8 @@ function draw(){
 
 	emblem();
 
+	txt.text("MELTA", 500, 540);
+
 }
 
 function jpg(){
@@ -97,7 +99,7 @@ function mouseClicked(){
 
 		if(mouseY > 0 && mouseY < height + 500){
 
-			txt.text("MELTA", 500, 540);
+			// txt.text("MELTA", 500, 540);
 
 			saveCanvas(canvas, textboxn.value(), 'jpg')
 
