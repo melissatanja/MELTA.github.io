@@ -47,13 +47,13 @@ function setup(){
 	createP();
 	
 	canvas = createCanvas(560, 560, WEBGL);
-	txt = createGraphics(560, 650, P2D);
+	txt = createGraphics(560, 560, P2D);
 
 	createP();
 
 	textboxn.changed(newName);
 
-	console.log("update8");
+	console.log("update9");
 
 }
 
