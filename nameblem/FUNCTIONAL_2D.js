@@ -67,7 +67,7 @@ function draw(){
 
 	// orbitControl();
 
-	// rotateX(PI/2);
+	rotateX(PI/2);
 
 	// border();
 
