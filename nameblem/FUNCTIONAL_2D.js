@@ -78,7 +78,7 @@ function draw(){
 	txt.background(255, 255, 255, 0);
 	txt.fill(0, 0, 0, 100);
 	txt.textSize(15);
-	txt.text("MELTA", 500, 500);
+	txt.text("MELTA", 490, 540);
 	texture(txt);
 
 	// texture("blue");
