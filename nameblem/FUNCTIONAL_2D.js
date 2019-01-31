@@ -102,6 +102,8 @@ function mouseClicked(){
 
 			// txt.text("MELTA", 500, 540);
 
+			image(txt, 0, 0);
+
 			saveCanvas(canvas, textboxn.value(), 'jpg')
 
 		}
