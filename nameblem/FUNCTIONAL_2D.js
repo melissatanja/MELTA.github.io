@@ -53,7 +53,7 @@ function setup(){
 
 	textboxn.changed(newName);
 
-	console.log("update7");
+	console.log("update8");
 
 }
 
