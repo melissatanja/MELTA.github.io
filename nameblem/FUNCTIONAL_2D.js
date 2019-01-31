@@ -47,12 +47,11 @@ function setup(){
 	createP();
 	
 	canvas = createCanvas(560, 560, WEBGL);
+	txt = createGraphics(560, 650, P2D);
 
 	createP();
 
 	textboxn.changed(newName);
-
-	txt = createGraphics(560, 650);
 
 }
 
@@ -74,6 +73,7 @@ function draw(){
 
 	txt.fill(0);
 	txt.text("MELTA", 500, 540);
+	image(txt, 0, 0);
 
 }
 
@@ -102,7 +102,7 @@ function mouseClicked(){
 
 			// txt.text("MELTA", 500, 540);
 
-			image(txt, 0, 0);
+			// image(txt, 0, 0);
 
 			saveCanvas(canvas, textboxn.value(), 'jpg')
 
