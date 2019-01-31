@@ -53,7 +53,7 @@ function setup(){
 
 	textboxn.changed(newName);
 
-	console.log("update6");
+	console.log("update7");
 
 }
 
@@ -69,14 +69,14 @@ function draw(){
 
 	rotateX(PI/2);
 
-	// border();
+	border();
 
-	// emblem();
+	emblem();
 
 	rotateX(-PI/2);
 
 	txt.background(255, 255, 255, 0);
-	txt.fill(0);
+	txt.fill(0, 0, 0, 100);
 	txt.textSize(15);
 	txt.text("MELTA", 500, 500);
 	texture(txt);
