@@ -45,7 +45,7 @@ function setup(){
 
 	createP();
 	
-	canvas = createCanvas(560, 560);
+	canvas = createCanvas(560, 560, WEBGL);
 
 	createP();
 
@@ -63,7 +63,7 @@ function draw(){
 
 	// orbitControl();
 
-	// rotateX(PI/2);
+	rotateX(PI/2);
 
 	border();
 
