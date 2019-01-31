@@ -67,11 +67,11 @@ function draw(){
 
 	// orbitControl();
 
-	rotateX(PI/2);
+	// rotateX(PI/2);
 
-	border();
+	// border();
 
-	emblem();
+	// emblem();
 
 	txt.background(255, 255, 255, 0);
 	txt.fill(0);
