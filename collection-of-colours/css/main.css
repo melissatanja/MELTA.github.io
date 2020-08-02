@@ -7,6 +7,7 @@ h1{
 h2{
 	font-family: 'Staatliches', cursive;
 	font-size: 1em;
+	margin-top: 0px;
 }
 
 p{
@@ -35,6 +36,8 @@ a{
 
 .description{
 	text-align: center;
+	max-width: 80%;
+	margin: auto;
 }
 
 .collection{
@@ -42,6 +45,7 @@ a{
 	flex-wrap: wrap;
 	margin-top: 0px;
 	justify-content: center;
+	max-width: 95%;
 }
 .swatch{
 	width: 3vw;
@@ -75,7 +79,7 @@ a{
 	color: white;
 	text-align: center;
 	vertical-align: middle;
-	line-height: 50px;
+	line-height: 3vw;
 	font-size: 1em;
 	/*justify-content: center;*/
 }
@@ -546,6 +550,7 @@ a{
 
 	h1{
 		font-size: 5em;
+		text-align: center;
 	}
 
 	h2, p{
@@ -571,8 +576,12 @@ a{
 		flex-wrap: wrap;
 	}
 
+/*	.description{
+
+	}*/
+
 	#all{
-		line-height: 85px;
+		line-height: 7vw;
 		font-size: 2em;
 	}
 

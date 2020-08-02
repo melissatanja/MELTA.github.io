@@ -88,7 +88,416 @@ $('#brown').click(function(){
 	$('#shut').show();
 })
 
-//image 1
+var x = window.matchMedia("(max-width: 1000px)")
+
+// this finds out if the user is on a computer or mobile device,
+// and changes the interaction method for ease of use 
+function deviceSize(x) {
+	if(x.matches) {
+		//image 1
+
+$('#col_8c4119').click(function(){
+
+	$('#image1').css('background-image', 'url("images/image1_8c4119.jpg")');
+	
+})
+
+$('#col_a9c1ee').click(function(){
+
+	$('#image1').css('background-image', 'url("images/image1_a9c1ee.jpg")');
+	
+})
+
+$('#col_ae8362').click(function(){
+
+	$('#image1').css('background-image', 'url("images/image1_ae8362.jpg")');
+	
+})
+
+//image 2
+
+$('#col_776244').click(function(){
+
+	$('#image2').css('background-image', 'url("images/image2_776244.jpg")');
+	
+})
+
+$('#col_abb4bf').click(function(){
+
+	$('#image2').css('background-image', 'url("images/image2_abb4bf.jpg")');
+	
+})
+
+$('#col_dad6ce').click(function(){
+
+	$('#image2').css('background-image', 'url("images/image2_dad6ce.jpg")');
+	
+})
+
+//image 3
+
+$('#col_4c6047').click(function(){
+
+	$('#image3').css('background-image', 'url("images/image3_4c6047.jpg")');
+	
+})
+
+$('#col_6d503e').click(function(){
+
+	$('#image3').css('background-image', 'url("images/image3_6d503e.jpg")');
+	
+})
+
+$('#col_afb8c9').click(function(){
+
+	$('#image3').css('background-image', 'url("images/image3_afb8c9.jpg")');
+	
+})
+
+//image 4
+
+$('#col_5bd5ff').click(function(){
+
+	$('#image4').css('background-image', 'url("images/image4_5bd5ff.jpg")');
+	
+})
+
+$('#col_15110e').click(function(){
+
+	$('#image4').css('background-image', 'url("images/image4_15110e.jpg")');
+	
+})
+
+$('#col_dad0c4').click(function(){
+
+	$('#image4').css('background-image', 'url("images/image4_dad0c4.jpg")');
+	
+})
+
+//image 5
+
+$('#col_788f9e').click(function(){
+
+	$('#image5').css('background-image', 'url("images/image5_788f9e.jpg")');
+	
+})
+
+$('#col_374454').click(function(){
+
+	$('#image5').css('background-image', 'url("images/image5_374454.jpg")');
+	
+})
+
+$('#col_82817d').click(function(){
+
+	$('#image5').css('background-image', 'url("images/image5_82817d.jpg")');
+	
+})
+
+//image 6
+
+$('#col_435a15').click(function(){
+
+	$('#image6').css('background-image', 'url("images/image6_435a15.jpg")');
+	
+})
+
+$('#col_ffffff').click(function(){
+
+	$('#image6').css('background-image', 'url("images/image6_ffffff.jpg")');
+	
+})
+
+$('#col_252f24').click(function(){
+
+	$('#image6').css('background-image', 'url("images/image6_252f24.jpg")');
+	
+})
+
+//image 7
+
+$('#col_a0a0ac').click(function(){
+
+	$('#image7').css('background-image', 'url("images/image7_a0a0ac.jpg")');
+	
+})
+
+$('#col_a7956c').click(function(){
+
+	$('#image7').css('background-image', 'url("images/image7_a7956c.jpg")');
+	
+})
+
+$('#col_0a0607').click(function(){
+
+	$('#image7').css('background-image', 'url("images/image7_0a0607.jpg")');
+	
+})
+
+//image 8
+
+$('#col_f67767').click(function(){
+
+	$('#image8').css('background-image', 'url("images/image8_f67767.jpg")');
+	
+})
+
+$('#col_fdc300').click(function(){
+
+	$('#image8').css('background-image', 'url("images/image8_fdc300.jpg")');
+	
+})
+
+$('#col_94805b').click(function(){
+
+	$('#image8').css('background-image', 'url("images/image8_94805b.jpg")');
+	
+})
+
+//image 9
+
+$('#col_b26062').click(function(){
+
+	$('#image9').css('background-image', 'url("images/image9_b26062.jpg")');
+	
+})
+
+$('#col_94161b').click(function(){
+
+	$('#image9').css('background-image', 'url("images/image9_94161b.jpg")');
+	
+})
+
+$('#col_b4b5aa').click(function(){
+
+	$('#image9').css('background-image', 'url("images/image9_b4b5aa.jpg")');
+	
+})
+
+//image 10
+
+$('#col_232f5d').click(function(){
+
+	$('#image10').css('background-image', 'url("images/image10_232f5d.jpg")');
+	
+})
+
+$('#col_dfd1c8').click(function(){
+
+	$('#image10').css('background-image', 'url("images/image10_dfd1c8.jpg")');
+	
+})
+
+$('#col_7d8d9c').click(function(){
+
+	$('#image10').css('background-image', 'url("images/image10_7d8d9c.jpg")');
+	
+})
+
+//image 11
+
+$('#col_5a393f').click(function(){
+
+	$('#image11').css('background-image', 'url("images/image11_5a393f.jpg")');
+	
+})
+
+$('#col_b5958a').click(function(){
+
+	$('#image11').css('background-image', 'url("images/image11_b5958a.jpg")');
+	
+})
+
+$('#col_969ea0').click(function(){
+
+	$('#image11').css('background-image', 'url("images/image11_969ea0.jpg")');
+	
+})
+
+//image 12
+
+$('#col_253d47').click(function(){
+
+	$('#image12').css('background-image', 'url("images/image12_253d47.jpg")');
+	
+})
+
+$('#col2_ffffff').click(function(){
+
+	$('#image12').css('background-image', 'url("images/image12_ffffff.jpg")');
+	
+})
+
+$('#col_a9a36c').click(function(){
+
+	$('#image12').css('background-image', 'url("images/image12_a9a36c.jpg")');
+	
+})
+
+//image 13
+
+$('#col_406784').click(function(){
+
+	$('#image13').css('background-image', 'url("images/image13_406784.jpg")');
+	
+})
+
+$('#col_e1dbc3').click(function(){
+
+	$('#image13').css('background-image', 'url("images/image13_e1dbc3.jpg")');
+	
+})
+
+$('#col_33444e').click(function(){
+
+	$('#image13').css('background-image', 'url("images/image13_33444e.jpg")');
+	
+})
+
+//image 14
+
+$('#col_564e42').click(function(){
+
+	$('#image14').css('background-image', 'url("images/image14_564e42.jpg")');
+	
+})
+
+$('#col_7689ad').click(function(){
+
+	$('#image14').css('background-image', 'url("images/image14_7689ad.jpg")');
+	
+})
+
+$('#col_95989d').click(function(){
+
+	$('#image14').css('background-image', 'url("images/image14_95989d.jpg")');
+	
+})
+
+//image 15
+
+$('#col_a48557').click(function(){
+
+	$('#image15').css('background-image', 'url("images/image15_a48557.jpg")');
+	
+})
+
+$('#col_9ba3ad').click(function(){
+
+	$('#image15').css('background-image', 'url("images/image15_9ba3ad.jpg")');
+	
+})
+
+$('#col_3f4145').click(function(){
+
+	$('#image15').css('background-image', 'url("images/image15_3f4145.jpg")');
+	
+})
+
+//image 16
+
+$('#col_2f84d0').click(function(){
+
+	$('#image16').css('background-image', 'url("images/image16_2f84d0.jpg")');
+	
+})
+
+$('#col_6c5445').click(function(){
+
+	$('#image16').css('background-image', 'url("images/image16_6c5445.jpg")');
+	
+})
+
+$('#col_b6b5ba').click(function(){
+
+	$('#image16').css('background-image', 'url("images/image16_b6b5ba.jpg")');
+	
+})
+
+//image 17
+
+$('#col_4e7477').click(function(){
+
+	$('#image17').css('background-image', 'url("images/image17_4e7477.jpg")');
+	
+})
+
+$('#col_c7d29e').click(function(){
+
+	$('#image17').css('background-image', 'url("images/image17_c7d29e.jpg")');
+	
+})
+
+$('#col_97a3a3').click(function(){
+
+	$('#image17').css('background-image', 'url("images/image17_97a3a3.jpg")');
+	
+})
+
+//image 18
+
+$('#col_555346').click(function(){
+
+	$('#image18').css('background-image', 'url("images/image18_555346.jpg")');
+	
+	
+})
+
+$('#col_eef2fd').click(function(){
+
+	$('#image18').css('background-image', 'url("images/image18_eef2fd.jpg")');
+	
+	
+})
+
+$('#col_534742').click(function(){
+
+	$('#image18').css('background-image', 'url("images/image18_534742.jpg")');
+	
+	
+})
+
+//image 19
+
+$('#col_9e8857').click(function(){
+
+	$('#image19').css('background-image', 'url("images/image19_9e8857.jpg")');
+	
+})
+
+$('#col_4b1f18').click(function(){
+
+	$('#image19').css('background-image', 'url("images/image19_4b1f18.jpg")');
+	
+})
+
+$('#col_21302b').click(function(){
+
+	$('#image19').css('background-image', 'url("images/image19_21302b.jpg")');
+	
+})
+
+//image 20
+
+$('#col_dccda2').click(function(){
+
+	$('#image20').css('background-image', 'url("images/image20_dccda2.jpg")');
+	
+})
+
+$('#col_0f0f0d').click(function(){
+
+	$('#image20').css('background-image', 'url("images/image20_0f0f0d.jpg")');
+	
+})
+
+$('#col_8fab76').click(function(){
+
+	$('#image20').css('background-image', 'url("images/image20_8fab76.jpg")');
+	
+})
+	} else {
+		//image 1
 
 $('#col_8c4119').hover(function(){
 
@@ -607,3 +1016,8 @@ $('#col_8fab76').hover(function(){
 	$('#image20').css('background-image', 'url("images/image20.jpg")');
 	
 })
+	}
+}
+
+deviceSize(x)
+x.addListener(deviceSize)
