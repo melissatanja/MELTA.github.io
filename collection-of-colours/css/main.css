@@ -44,8 +44,8 @@ a{
 	justify-content: center;
 }
 .swatch{
-	width: 50px;
-	height: 50px;
+	width: 3vw;
+	height: 3vw;
 	margin: 15px;
 }
 
@@ -64,6 +64,7 @@ a{
 	width: 15vw;
 	height: 15vw;
 	transition: background 2s ease-in-out;
+	margin: auto;
 	margin-bottom: 25px;
 }
 
@@ -528,20 +529,20 @@ a{
 		height: 25vw;
 	}
 
-	.swatch{
-		width: 65px;
-		height: 65px;
-		margin: 25px;
-	}
+/*	.swatch{
+		width: 60px;
+		height: 60px;
+		margin: 20px;
+	}*/
 
 	.buttons{
 		flex-wrap: wrap;
 	}
 
-	#all{
+/*	#all{
 		line-height: 65px;
-		font-size: 2em;
-	}
+		font-size: 1em;
+	}*/
 
 	h1{
 		font-size: 5em;
@@ -561,8 +562,8 @@ a{
 	}
 
 	.swatch{
-		width: 85px;
-		height: 85px;
+		width: 7vw;
+		height: 7vw;
 		margin: 25px;
 	}
 
