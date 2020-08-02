@@ -57,6 +57,7 @@ a{
 .container{
 	margin: 25px;
 	text-align: center;
+	justify-content: center;
 }
 
 .image-box{
@@ -518,6 +519,38 @@ a{
 
 #col_8fab76{
 	background: #8fab76;
+}
+
+@media screen and (max-width: 1500px){
+
+	.image-box{
+		width: 25vw;
+		height: 25vw;
+	}
+
+	.swatch{
+		width: 65px;
+		height: 65px;
+		margin: 25px;
+	}
+
+	.buttons{
+		flex-wrap: wrap;
+	}
+
+	#all{
+		line-height: 65px;
+		font-size: 2em;
+	}
+
+	h1{
+		font-size: 5em;
+	}
+
+	h2, p{
+		font-size: 1.5em;
+	}
+
 }
 
 @media screen and (max-width: 1000px){

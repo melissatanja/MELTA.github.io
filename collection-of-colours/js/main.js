@@ -50,7 +50,6 @@ $('#green').click(function(){
 $('#blue').click(function(){
 
 	$('.container').hide();
-	$('#wethands').show();
 	$('#freedom').show();
 	$('#division').show();
 	$('#worn').show();
