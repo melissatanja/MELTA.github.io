@@ -6,13 +6,13 @@ h1{
 
 h2{
 	font-family: 'Staatliches', cursive;
-	font-size: 1em;
+	font-size: 1.35em;
 	margin-top: 0px;
 }
 
 p{
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 1em;
+	font-size: 1.25em;
 }
 
 header{
@@ -533,28 +533,32 @@ a{
 		height: 25vw;
 	}
 
-/*	.swatch{
-		width: 60px;
-		height: 60px;
+	.swatch{
+		width: 4.5vw;
+		height: 4.5vw;
 		margin: 20px;
-	}*/
+	}
 
 	.buttons{
 		flex-wrap: wrap;
 	}
 
-/*	#all{
-		line-height: 65px;
-		font-size: 1em;
-	}*/
+	#all{
+		line-height: 4.5vw;
+		font-size: 1.5em;
+	}
 
 	h1{
 		font-size: 5em;
 		text-align: center;
 	}
 
-	h2, p{
-		font-size: 1.5em;
+	h2{
+		font-size: 2em;
+	} 
+
+	p{
+		font-size: 1.75em;
 	}
 
 }
@@ -575,10 +579,6 @@ a{
 	.buttons{
 		flex-wrap: wrap;
 	}
-
-/*	.description{
-
-	}*/
 
 	#all{
 		line-height: 7vw;
