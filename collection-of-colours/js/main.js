@@ -1,14 +1,95 @@
 console.log('Welcome to Developer Tools. JavaScript loaded from main.js!');
 
+// search buttons
+
+$('#all').click(function(){
+
+	$('.container').show();
+})
+
+$('#pink').click(function(){
+
+	$('.container').hide();
+	$('#decorated').show();
+})
+
+$('#red').click(function(){
+
+	$('.container').hide();
+	$('#drip').show();
+	$('#shakeit').show();
+})
+
+$('#orange').click(function(){
+
+	$('.container').hide();
+	$('#wethands').show();
+	$('#chuckle').show();
+})
+
+$('#yellow').click(function(){
+
+	$('.container').hide();
+	$('#chuckle').show();
+	$('#edgeout').show();
+	$('#shakeit').show();
+	$('#hive').show();
+})
+
+$('#green').click(function(){
+
+	$('.container').hide();
+	$('#pointedfingers').show();
+	$('#cracks').show();
+	$('#poke').show();
+	$('#folds').show();
+	$('#neighbours').show();
+	$('#abomination').show();
+})
+
+$('#blue').click(function(){
+
+	$('.container').hide();
+	$('#wethands').show();
+	$('#freedom').show();
+	$('#division').show();
+	$('#worn').show();
+	$('#mayberain').show();
+	$('#folds').show();
+	$('#dwellers').show();
+})
+
+$('#purple').click(function(){
+
+	$('.container').hide();
+	$('#shut').show();
+	$('#missed').show();
+})
+
+$('#grey').click(function(){
+
+	$('.container').hide();
+	$('#division').show();
+	$('#missed').show();
+	$('#decorated').show();
+	$('#folds').show();
+	$('#edgeout').show();
+	$('#neighbours').show();
+	$('#abomination').show();
+	$('#mayberain').show();
+	$('#drip').show();
+})
+
+$('#brown').click(function(){
+
+	$('.container').hide();
+	$('#dwellers').show();
+	$('#wethands').show();
+	$('#pointedfingers').show();
+	$('#shut').show();
+})
+
 //image 1
-
-// $('.name').hover(function(){
-
-// 	$('.name').css('background', white);
-// 	}, function(){
-// 		$('.name').css('background', transparent);
-
-// })
 
 $('#col_8c4119').hover(function(){
 
