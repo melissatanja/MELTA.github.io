@@ -43,7 +43,7 @@ a{
 .collection{
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 0px;
+	margin: auto;
 	justify-content: center;
 	max-width: 95%;
 }
