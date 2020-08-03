@@ -28,6 +28,13 @@ a{
 	color: black;
 }
 
+.subtitle{
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
 .buttons{
 	display: flex;
 	margin: 25px;
