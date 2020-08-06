@@ -11,6 +11,9 @@ $('#pink').click(function(){
 
 	$('.container').hide();
 	$('#decorated').show();
+	$('#aloha').show();
+	$('#lean').show();
+	$('#playtime').show();
 })
 
 $('#red').click(function(){
@@ -18,6 +21,10 @@ $('#red').click(function(){
 	$('.container').hide();
 	$('#drip').show();
 	$('#shakeit').show();
+	$('#onmyway').show();
+	$('#surprise').show();
+	$('#alarmed').show();
+	$('#utensils').show();
 })
 
 $('#orange').click(function(){
@@ -25,6 +32,7 @@ $('#orange').click(function(){
 	$('.container').hide();
 	$('#wethands').show();
 	$('#chuckle').show();
+	$('#playtime').show();
 })
 
 $('#yellow').click(function(){
@@ -34,6 +42,9 @@ $('#yellow').click(function(){
 	$('#edgeout').show();
 	$('#shakeit').show();
 	$('#hive').show();
+	$('#surprise').show();
+	$('#alarmed').show();
+	$('#mh').show();
 })
 
 $('#green').click(function(){
@@ -45,6 +56,7 @@ $('#green').click(function(){
 	$('#folds').show();
 	$('#neighbours').show();
 	$('#abomination').show();
+	$('#surprise').show();
 })
 
 $('#blue').click(function(){
@@ -56,6 +68,11 @@ $('#blue').click(function(){
 	$('#mayberain').show();
 	$('#folds').show();
 	$('#dwellers').show();
+	$('#aloha').show();
+	$('#lean').show();
+	$('#mh').show();
+	$('#definitelyrain').show();
+	$('#playtime').show();
 })
 
 $('#purple').click(function(){
@@ -63,6 +80,9 @@ $('#purple').click(function(){
 	$('.container').hide();
 	$('#shut').show();
 	$('#missed').show();
+	$('#onmyway').show();
+	$('#busy').show();
+	$('#utensils').show();
 })
 
 $('#grey').click(function(){
@@ -77,6 +97,8 @@ $('#grey').click(function(){
 	$('#abomination').show();
 	$('#mayberain').show();
 	$('#drip').show();
+	$('#mh').show();
+	$('#definitelyrain').show();
 })
 
 $('#brown').click(function(){
@@ -86,6 +108,7 @@ $('#brown').click(function(){
 	$('#wethands').show();
 	$('#pointedfingers').show();
 	$('#shut').show();
+	$('#busy').show();
 })
 
 var x = window.matchMedia("(max-width: 1000px)")
@@ -94,7 +117,8 @@ var x = window.matchMedia("(max-width: 1000px)")
 // and changes the interaction method for ease of use 
 function deviceSize(x) {
 	if(x.matches) {
-		//image 1
+
+//image 1
 
 $('#col_8c4119').click(function(){
 
@@ -496,8 +520,208 @@ $('#col_8fab76').click(function(){
 	$('#image20').css('background-image', 'url("images/image20_8fab76.jpg")');
 	
 })
+
+//image 21
+$('#col_ed3c34').click(function(){
+
+	$('#image21').css('background-image', 'url("images/image21_ed3c34.jpg")');
+	
+})
+
+$('#col_714653').click(function(){
+
+	$('#image21').css('background-image', 'url("images/image21_714653.jpg")');
+	
+})
+
+$('#col_3a322f').click(function(){
+
+	$('#image21').css('background-image', 'url("images/image21_3a322f.jpg")');
+	
+})
+
+//image 22
+
+$('#col_d7a36c').click(function(){
+
+	$('#image22').css('background-image', 'url("images/image22_d7a36c.jpg")');
+	
+})
+
+$('#col_1a4f79').click(function(){
+
+	$('#image22').css('background-image', 'url("images/image22_1a4f79.jpg")');
+	
+})
+
+$('#col_a1566a').click(function(){
+
+	$('#image22').css('background-image', 'url("images/image22_a1566a.jpg")');
+	
+})
+
+//image 23
+
+$('#col_881333').click(function(){
+
+	$('#image23').css('background-image', 'url("images/image23_881333.jpg")');
+	
+})
+
+$('#col_ad8405').click(function(){
+
+	$('#image23').css('background-image', 'url("images/image23_ad8405.jpg")');
+	
+})
+
+$('#col_366014').click(function(){
+
+	$('#image23').css('background-image', 'url("images/image23_366014.jpg")');
+	
+})
+
+//image 24
+
+$('#col_151a76').click(function(){
+
+	$('#image24').css('background-image', 'url("images/image24_151a76.jpg")');
+	
+})
+
+$('#col_dbbf9f').click(function(){
+
+	$('#image24').css('background-image', 'url("images/image24_dbbf9f.jpg")');
+	
+})
+
+$('#col_453730').click(function(){
+
+	$('#image24').css('background-image', 'url("images/image24_453730.jpg")');
+	
+})
+
+//image 25
+
+$('#col_6d1b06').click(function(){
+
+	$('#image25').css('background-image', 'url("images/image25_6d1b06.jpg")');
+	
+})
+
+$('#col_b69c64').click(function(){
+
+	$('#image25').css('background-image', 'url("images/image25_b69c64.jpg")');
+	
+})
+
+$('#col_234f72').click(function(){
+
+	$('#image25').css('background-image', 'url("images/image25_234f72.jpg")');
+	
+})
+
+//image 26
+
+$('#col_ca4e73').click(function(){
+
+	$('#image26').css('background-image', 'url("images/image26_ca4e73.jpg")');
+	
+})
+
+$('#col_72bcd7').click(function(){
+
+	$('#image26').css('background-image', 'url("images/image26_72bcd7.jpg")');
+	
+})
+
+$('#col_7b651a').click(function(){
+
+	$('#image26').css('background-image', 'url("images/image26_7b651a.jpg")');
+	
+})
+
+//image 27
+
+$('#col_badfe7').click(function(){
+
+	$('#image27').css('background-image', 'url("images/image27_badfe7.jpg")');
+	
+})
+
+$('#col_ffdea0').click(function(){
+
+	$('#image27').css('background-image', 'url("images/image27_ffdea0.jpg")');
+	
+})
+
+$('#col_5f5c60').click(function(){
+
+	$('#image27').css('background-image', 'url("images/image27_5f5c60.jpg")');
+	
+})
+
+//image 28
+
+$('#col_344152').click(function(){
+
+	$('#image28').css('background-image', 'url("images/image28_344152.jpg")');
+	
+})
+
+$('#col_d4c9b5').click(function(){
+
+	$('#image28').css('background-image', 'url("images/image28_d4c9b5.jpg")');
+	
+})
+
+$('#col_21221a').click(function(){
+
+	$('#image28').css('background-image', 'url("images/image28_21221a.jpg")');
+	
+})
+
+//image 29
+
+$('#col_b97774').click(function(){
+
+	$('#image29').css('background-image', 'url("images/image29_b97774.jpg")');
+	
+})
+
+$('#col_7696af').click(function(){
+
+	$('#image29').css('background-image', 'url("images/image29_7696af.jpg")');
+	
+})
+
+$('#col_eb660f').click(function(){
+
+	$('#image29').css('background-image', 'url("images/image29_eb660f.jpg")');
+	
+})
+
+//image 30
+
+$('#col_5a52b1').click(function(){
+
+	$('#image30').css('background-image', 'url("images/image30_5a52b1.jpg")');
+	
+})
+
+$('#col_6b3068').click(function(){
+
+	$('#image30').css('background-image', 'url("images/image30_6b3068.jpg")');
+	
+})
+
+$('#col_880c14').click(function(){
+
+	$('#image30').css('background-image', 'url("images/image30_880c14.jpg")');
+	
+})
 	} else {
-		//image 1
+
+//image 1
 
 $('#col_8c4119').hover(function(){
 
@@ -1014,6 +1238,265 @@ $('#col_8fab76').hover(function(){
 	$('#image20').css('background-image', 'url("images/image20_8fab76.jpg")');
 	}, function(){
 	$('#image20').css('background-image', 'url("images/image20.jpg")');
+	
+})
+
+//image 21
+$('#col_ed3c34').hover(function(){
+
+	$('#image21').css('background-image', 'url("images/image21_ed3c34.jpg")');
+	}, function(){
+	$('#image21').css('background-image', 'url("images/image21.jpg")');
+	
+})
+
+$('#col_714653').hover(function(){
+
+	$('#image21').css('background-image', 'url("images/image21_714653.jpg")');
+	}, function(){
+	$('#image21').css('background-image', 'url("images/image21.jpg")');
+	
+})
+
+$('#col_3a322f').hover(function(){
+
+	$('#image21').css('background-image', 'url("images/image21_3a322f.jpg")');
+	}, function(){
+	$('#image21').css('background-image', 'url("images/image21.jpg")');
+	
+})
+
+//image 22
+
+$('#col_d7a36c').hover(function(){
+
+	$('#image22').css('background-image', 'url("images/image22_d7a36c.jpg")');
+	}, function(){
+	$('#image22').css('background-image', 'url("images/image22.jpg")');
+	
+})
+
+$('#col_1a4f79').hover(function(){
+
+	$('#image22').css('background-image', 'url("images/image22_1a4f79.jpg")');
+	}, function(){
+	$('#image22').css('background-image', 'url("images/image22.jpg")');
+	
+})
+
+$('#col_a1566a').hover(function(){
+
+	$('#image22').css('background-image', 'url("images/image22_a1566a.jpg")');
+	}, function(){
+	$('#image22').css('background-image', 'url("images/image22.jpg")');
+	
+})
+
+//image 23
+
+$('#col_881333').hover(function(){
+
+	$('#image23').css('background-image', 'url("images/image23_881333.jpg")');
+	}, function(){
+	$('#image23').css('background-image', 'url("images/image23.jpg")');
+	
+})
+
+$('#col_ad8405').hover(function(){
+
+	$('#image23').css('background-image', 'url("images/image23_ad8405.jpg")');
+	}, function(){
+	$('#image23').css('background-image', 'url("images/image23.jpg")');
+	
+})
+
+$('#col_366014').hover(function(){
+
+	$('#image23').css('background-image', 'url("images/image23_366014.jpg")');
+	}, function(){
+	$('#image23').css('background-image', 'url("images/image23.jpg")');
+	
+})
+
+//image 24
+
+$('#col_151a76').hover(function(){
+
+	$('#image24').css('background-image', 'url("images/image24_151a76.jpg")');
+	}, function(){
+	$('#image24').css('background-image', 'url("images/image24.jpg")');
+	
+})
+
+$('#col_dbbf9f').hover(function(){
+
+	$('#image24').css('background-image', 'url("images/image24_dbbf9f.jpg")');
+	}, function(){
+	$('#image24').css('background-image', 'url("images/image24.jpg")');
+	
+})
+
+$('#col_453730').hover(function(){
+
+	$('#image24').css('background-image', 'url("images/image24_453730.jpg")');
+	}, function(){
+	$('#image24').css('background-image', 'url("images/image24.jpg")');
+	
+})
+
+//image 25
+
+$('#col_6d1b06').hover(function(){
+
+	$('#image25').css('background-image', 'url("images/image25_6d1b06.jpg")');
+	}, function(){
+	$('#image25').css('background-image', 'url("images/image25.jpg")');
+	
+})
+
+$('#col_b69c64').hover(function(){
+
+	$('#image25').css('background-image', 'url("images/image25_b69c64.jpg")');
+	}, function(){
+	$('#image25').css('background-image', 'url("images/image25.jpg")');
+	
+})
+
+$('#col_234f72').hover(function(){
+
+	$('#image25').css('background-image', 'url("images/image25_234f72.jpg")');
+	}, function(){
+	$('#image25').css('background-image', 'url("images/image25.jpg")');
+	
+})
+
+//image 26
+
+$('#col_ca4e73').hover(function(){
+
+	$('#image26').css('background-image', 'url("images/image26_ca4e73.jpg")');
+	}, function(){
+	$('#image26').css('background-image', 'url("images/image26.jpg")');
+	
+})
+
+$('#col_72bcd7').hover(function(){
+
+	$('#image26').css('background-image', 'url("images/image26_72bcd7.jpg")');
+	}, function(){
+	$('#image26').css('background-image', 'url("images/image26.jpg")');
+	
+})
+
+$('#col_7b651a').hover(function(){
+
+	$('#image26').css('background-image', 'url("images/image26_7b651a.jpg")');
+	}, function(){
+	$('#image26').css('background-image', 'url("images/image26.jpg")');
+	
+})
+
+//image 27
+
+$('#col_badfe7').hover(function(){
+
+	$('#image27').css('background-image', 'url("images/image27_badfe7.jpg")');
+	}, function(){
+	$('#image27').css('background-image', 'url("images/image27.jpg")');
+	
+})
+
+$('#col_ffdea0').hover(function(){
+
+	$('#image27').css('background-image', 'url("images/image27_ffdea0.jpg")');
+	}, function(){
+	$('#image27').css('background-image', 'url("images/image27.jpg")');
+	
+})
+
+$('#col_5f5c60').hover(function(){
+
+	$('#image27').css('background-image', 'url("images/image27_5f5c60.jpg")');
+	}, function(){
+	$('#image27').css('background-image', 'url("images/image27.jpg")');
+	
+})
+
+//image 28
+
+$('#col_344152').hover(function(){
+
+	$('#image28').css('background-image', 'url("images/image28_344152.jpg")');
+	}, function(){
+	$('#image28').css('background-image', 'url("images/image28.jpg")');
+	
+})
+
+$('#col_d4c9b5').hover(function(){
+
+	$('#image28').css('background-image', 'url("images/image28_d4c9b5.jpg")');
+	}, function(){
+	$('#image28').css('background-image', 'url("images/image28.jpg")');
+	
+})
+
+$('#col_21221a').hover(function(){
+
+	$('#image28').css('background-image', 'url("images/image28_21221a.jpg")');
+	}, function(){
+	$('#image28').css('background-image', 'url("images/image28.jpg")');
+	
+})
+
+//image 29
+
+$('#col_b97774').hover(function(){
+
+	$('#image29').css('background-image', 'url("images/image29_b97774.jpg")');
+	}, function(){
+	$('#image29').css('background-image', 'url("images/image29.jpg")');
+	
+})
+
+$('#col_7696af').hover(function(){
+
+	$('#image29').css('background-image', 'url("images/image29_7696af.jpg")');
+	}, function(){
+	$('#image29').css('background-image', 'url("images/image29.jpg")');
+	
+})
+
+$('#col_eb660f').hover(function(){
+
+	$('#image29').css('background-image', 'url("images/image29_eb660f.jpg")');
+	}, function(){
+	$('#image29').css('background-image', 'url("images/image29.jpg")');
+	
+})
+
+//image 30
+
+$('#col_5a52b1').hover(function(){
+
+	$('#image30').css('background-image', 'url("images/image30_5a52b1.jpg")');
+	}, function(){
+	$('#image30').css('background-image', 'url("images/image30.jpg")');
+	
+})
+
+$('#col_6b3068').hover(function(){
+
+	$('#image30').css('background-image', 'url("images/image30_6b3068.jpg")');
+	}, function(){
+	$('#image30').css('background-image', 'url("images/image30.jpg")');
+	
+})
+
+$('#col_880c14').hover(function(){
+
+	$('#image30').css('background-image', 'url("images/image30_880c14.jpg")');
+	}, function(){
+	$('#image30').css('background-image', 'url("images/image30.jpg")');
 	
 })
 	}
