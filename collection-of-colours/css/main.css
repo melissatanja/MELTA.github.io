@@ -726,6 +726,8 @@ a{
 	background: #880c14;
 }
 
+/*BREAKPOINTS*/
+
 @media screen and (max-width: 1500px){
 
 	.image-box{
@@ -766,14 +768,14 @@ a{
 @media screen and (max-width: 1000px){
 
 	.image-box{
-		width: 40vw;
-		height: 40vw;
+		width: 65vw;
+		height: 65vw;
 	}
 
 	.swatch{
-		width: 7vw;
-		height: 7vw;
-		margin: 25px;
+		width: 8vw;
+		height: 8vw;
+		margin: 50px;
 	}
 
 	.buttons{

@@ -44,7 +44,7 @@ $('#yellow').click(function(){
 	$('#hive').show();
 	$('#surprise').show();
 	$('#alarmed').show();
-	$('#mh').show();
+	$('#m/h').show();
 })
 
 $('#green').click(function(){
@@ -70,7 +70,7 @@ $('#blue').click(function(){
 	$('#dwellers').show();
 	$('#aloha').show();
 	$('#lean').show();
-	$('#mh').show();
+	$('#m/h').show();
 	$('#definitelyrain').show();
 	$('#playtime').show();
 })
@@ -97,7 +97,7 @@ $('#grey').click(function(){
 	$('#abomination').show();
 	$('#mayberain').show();
 	$('#drip').show();
-	$('#mh').show();
+	$('#m/h').show();
 	$('#definitelyrain').show();
 })
 
